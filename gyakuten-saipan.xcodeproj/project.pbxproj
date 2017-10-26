@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEA3CBA91FA2A802001EE075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA3CBA81FA2A802001EE075 /* AppDelegate.swift */; };
+		EEA3CBAB1FA2A802001EE075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA3CBAA1FA2A802001EE075 /* ViewController.swift */; };
+		EEA3CBAE1FA2A802001EE075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA3CBAC1FA2A802001EE075 /* Main.storyboard */; };
+		EEA3CBB01FA2A802001EE075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA3CBAF1FA2A802001EE075 /* Assets.xcassets */; };
+		EEA3CBB31FA2A802001EE075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA3CBB11FA2A802001EE075 /* LaunchScreen.storyboard */; };
+		EEA3CBBE1FA2A803001EE075 /* gyakuten_saipanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA3CBBD1FA2A803001EE075 /* gyakuten_saipanTests.swift */; };
+		EEA3CBC91FA2A803001EE075 /* gyakuten_saipanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA3CBC81FA2A803001EE075 /* gyakuten_saipanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEA3CBBA1FA2A803001EE075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEA3CB9D1FA2A802001EE075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEA3CBA41FA2A802001EE075;
+			remoteInfo = "gyakuten-saipan";
+		};
+		EEA3CBC51FA2A803001EE075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEA3CB9D1FA2A802001EE075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEA3CBA41FA2A802001EE075;
+			remoteInfo = "gyakuten-saipan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEA3CBA51FA2A802001EE075 /* gyakuten-saipan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gyakuten-saipan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA3CBA81FA2A802001EE075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEA3CBAA1FA2A802001EE075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEA3CBAD1FA2A802001EE075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA3CBAF1FA2A802001EE075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA3CBB21FA2A802001EE075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEA3CBB41FA2A802001EE075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA3CBB91FA2A803001EE075 /* gyakuten-saipanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gyakuten-saipanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA3CBBD1FA2A803001EE075 /* gyakuten_saipanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyakuten_saipanTests.swift; sourceTree = "<group>"; };
+		EEA3CBBF1FA2A803001EE075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA3CBC41FA2A803001EE075 /* gyakuten-saipanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gyakuten-saipanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA3CBC81FA2A803001EE075 /* gyakuten_saipanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyakuten_saipanUITests.swift; sourceTree = "<group>"; };
+		EEA3CBCA1FA2A803001EE075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA3CBA21FA2A802001EE075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA3CBB61FA2A803001EE075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA3CBC11FA2A803001EE075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA3CB9C1FA2A802001EE075 = {
+			isa = PBXGroup;
+			children = (
+				EEA3CBA71FA2A802001EE075 /* gyakuten-saipan */,
+				EEA3CBBC1FA2A803001EE075 /* gyakuten-saipanTests */,
+				EEA3CBC71FA2A803001EE075 /* gyakuten-saipanUITests */,
+				EEA3CBA61FA2A802001EE075 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA3CBA61FA2A802001EE075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA3CBA51FA2A802001EE075 /* gyakuten-saipan.app */,
+				EEA3CBB91FA2A803001EE075 /* gyakuten-saipanTests.xctest */,
+				EEA3CBC41FA2A803001EE075 /* gyakuten-saipanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA3CBA71FA2A802001EE075 /* gyakuten-saipan */ = {
+			isa = PBXGroup;
+			children = (
+				EEA3CBA81FA2A802001EE075 /* AppDelegate.swift */,
+				EEA3CBAA1FA2A802001EE075 /* ViewController.swift */,
+				EEA3CBAC1FA2A802001EE075 /* Main.storyboard */,
+				EEA3CBAF1FA2A802001EE075 /* Assets.xcassets */,
+				EEA3CBB11FA2A802001EE075 /* LaunchScreen.storyboard */,
+				EEA3CBB41FA2A802001EE075 /* Info.plist */,
+			);
+			path = "gyakuten-saipan";
+			sourceTree = "<group>";
+		};
+		EEA3CBBC1FA2A803001EE075 /* gyakuten-saipanTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEA3CBBD1FA2A803001EE075 /* gyakuten_saipanTests.swift */,
+				EEA3CBBF1FA2A803001EE075 /* Info.plist */,
+			);
+			path = "gyakuten-saipanTests";
+			sourceTree = "<group>";
+		};
+		EEA3CBC71FA2A803001EE075 /* gyakuten-saipanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEA3CBC81FA2A803001EE075 /* gyakuten_saipanUITests.swift */,
+				EEA3CBCA1FA2A803001EE075 /* Info.plist */,
+			);
+			path = "gyakuten-saipanUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA3CBA41FA2A802001EE075 /* gyakuten-saipan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA3CBCD1FA2A803001EE075 /* Build configuration list for PBXNativeTarget "gyakuten-saipan" */;
+			buildPhases = (
+				EEA3CBA11FA2A802001EE075 /* Sources */,
+				EEA3CBA21FA2A802001EE075 /* Frameworks */,
+				EEA3CBA31FA2A802001EE075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gyakuten-saipan";
+			productName = "gyakuten-saipan";
+			productReference = EEA3CBA51FA2A802001EE075 /* gyakuten-saipan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEA3CBB81FA2A803001EE075 /* gyakuten-saipanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA3CBD01FA2A803001EE075 /* Build configuration list for PBXNativeTarget "gyakuten-saipanTests" */;
+			buildPhases = (
+				EEA3CBB51FA2A803001EE075 /* Sources */,
+				EEA3CBB61FA2A803001EE075 /* Frameworks */,
+				EEA3CBB71FA2A803001EE075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEA3CBBB1FA2A803001EE075 /* PBXTargetDependency */,
+			);
+			name = "gyakuten-saipanTests";
+			productName = "gyakuten-saipanTests";
+			productReference = EEA3CBB91FA2A803001EE075 /* gyakuten-saipanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEA3CBC31FA2A803001EE075 /* gyakuten-saipanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA3CBD31FA2A803001EE075 /* Build configuration list for PBXNativeTarget "gyakuten-saipanUITests" */;
+			buildPhases = (
+				EEA3CBC01FA2A803001EE075 /* Sources */,
+				EEA3CBC11FA2A803001EE075 /* Frameworks */,
+				EEA3CBC21FA2A803001EE075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEA3CBC61FA2A803001EE075 /* PBXTargetDependency */,
+			);
+			name = "gyakuten-saipanUITests";
+			productName = "gyakuten-saipanUITests";
+			productReference = EEA3CBC41FA2A803001EE075 /* gyakuten-saipanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA3CB9D1FA2A802001EE075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = k0mach1;
+				TargetAttributes = {
+					EEA3CBA41FA2A802001EE075 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EEA3CBB81FA2A803001EE075 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEA3CBA41FA2A802001EE075;
+					};
+					EEA3CBC31FA2A803001EE075 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEA3CBA41FA2A802001EE075;
+					};
+				};
+			};
+			buildConfigurationList = EEA3CBA01FA2A802001EE075 /* Build configuration list for PBXProject "gyakuten-saipan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA3CB9C1FA2A802001EE075;
+			productRefGroup = EEA3CBA61FA2A802001EE075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA3CBA41FA2A802001EE075 /* gyakuten-saipan */,
+				EEA3CBB81FA2A803001EE075 /* gyakuten-saipanTests */,
+				EEA3CBC31FA2A803001EE075 /* gyakuten-saipanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA3CBA31FA2A802001EE075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA3CBB31FA2A802001EE075 /* LaunchScreen.storyboard in Resources */,
+				EEA3CBB01FA2A802001EE075 /* Assets.xcassets in Resources */,
+				EEA3CBAE1FA2A802001EE075 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA3CBB71FA2A803001EE075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA3CBC21FA2A803001EE075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA3CBA11FA2A802001EE075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA3CBAB1FA2A802001EE075 /* ViewController.swift in Sources */,
+				EEA3CBA91FA2A802001EE075 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA3CBB51FA2A803001EE075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA3CBBE1FA2A803001EE075 /* gyakuten_saipanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA3CBC01FA2A803001EE075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA3CBC91FA2A803001EE075 /* gyakuten_saipanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEA3CBBB1FA2A803001EE075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEA3CBA41FA2A802001EE075 /* gyakuten-saipan */;
+			targetProxy = EEA3CBBA1FA2A803001EE075 /* PBXContainerItemProxy */;
+		};
+		EEA3CBC61FA2A803001EE075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEA3CBA41FA2A802001EE075 /* gyakuten-saipan */;
+			targetProxy = EEA3CBC51FA2A803001EE075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEA3CBAC1FA2A802001EE075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA3CBAD1FA2A802001EE075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEA3CBB11FA2A802001EE075 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA3CBB21FA2A802001EE075 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEA3CBCB1FA2A803001EE075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEA3CBCC1FA2A803001EE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA3CBCE1FA2A803001EE075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D966HP5CQ;
+				INFOPLIST_FILE = "gyakuten-saipan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyakuten-saipan.gyakuten-saipan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEA3CBCF1FA2A803001EE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D966HP5CQ;
+				INFOPLIST_FILE = "gyakuten-saipan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyakuten-saipan.gyakuten-saipan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEA3CBD11FA2A803001EE075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D966HP5CQ;
+				INFOPLIST_FILE = "gyakuten-saipanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyakuten-saipan.gyakuten-saipanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyakuten-saipan.app/gyakuten-saipan";
+			};
+			name = Debug;
+		};
+		EEA3CBD21FA2A803001EE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D966HP5CQ;
+				INFOPLIST_FILE = "gyakuten-saipanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyakuten-saipan.gyakuten-saipanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyakuten-saipan.app/gyakuten-saipan";
+			};
+			name = Release;
+		};
+		EEA3CBD41FA2A803001EE075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D966HP5CQ;
+				INFOPLIST_FILE = "gyakuten-saipanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyakuten-saipan.gyakuten-saipanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gyakuten-saipan";
+			};
+			name = Debug;
+		};
+		EEA3CBD51FA2A803001EE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D966HP5CQ;
+				INFOPLIST_FILE = "gyakuten-saipanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyakuten-saipan.gyakuten-saipanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gyakuten-saipan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA3CBA01FA2A802001EE075 /* Build configuration list for PBXProject "gyakuten-saipan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA3CBCB1FA2A803001EE075 /* Debug */,
+				EEA3CBCC1FA2A803001EE075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA3CBCD1FA2A803001EE075 /* Build configuration list for PBXNativeTarget "gyakuten-saipan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA3CBCE1FA2A803001EE075 /* Debug */,
+				EEA3CBCF1FA2A803001EE075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA3CBD01FA2A803001EE075 /* Build configuration list for PBXNativeTarget "gyakuten-saipanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA3CBD11FA2A803001EE075 /* Debug */,
+				EEA3CBD21FA2A803001EE075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA3CBD31FA2A803001EE075 /* Build configuration list for PBXNativeTarget "gyakuten-saipanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA3CBD41FA2A803001EE075 /* Debug */,
+				EEA3CBD51FA2A803001EE075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEA3CB9D1FA2A802001EE075 /* Project object */;
+}
