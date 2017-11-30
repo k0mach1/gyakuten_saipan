@@ -10,16 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var gyakutenImageVIew: UIImageView!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var submitButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.gyakutenImageVIew.alpha = 0
+        submitButton.layer.cornerRadius = submitButton.frame.height / 2
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onsubmitButtonClick(_ sender: Any) {
+        UIView.animate(withDuration: 2.0, animations: {
+            self.imageView.transform =  CGAffineTransform(rotationAngle: CGFloat(Double.pi))
+        }, completion: { finished in
+            UIView.animate(withDuration: 1.0) {
+                self.gyakutenImageVIew.alpha = 1.0
+            }
+        })
     }
-
-
 }
 
